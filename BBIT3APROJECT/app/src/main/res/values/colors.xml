@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#65499d</color>
+    <color name="colorPrimaryDark">#65499d</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colortxthint">#d0c3e0</color>
+    <color name="colortxtbutton">#ffff</color>
+    <color name="backgroundbutton">#65499d</color>
+    <color name="txtcolor">#65499d</color>
+
+    <color name="material_deep_purple_500">#65499d</color>
+    <color name="material_deep_purple_50">#ece6f2</color>
+    <color name="material_deep_purple_100">#d0c3e0</color>
+</resources>

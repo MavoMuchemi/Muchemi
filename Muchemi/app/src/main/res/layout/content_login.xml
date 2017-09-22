@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:paddingTop="@dimen/paddingTop1"
+    >
+
+<EditText
+    android:paddingTop="@dimen/paddingTop2"
+    android:id="@+id/UserName"
+    android:layout_width="@dimen/width1"
+    android:layout_height="wrap_content"
+    android:hint="@string/txtusername"
+    android:inputType="text"
+    android:layout_centerHorizontal="true"
+
+    />
+
+<EditText
+    android:id="@+id/Password"
+    android:layout_width="@dimen/width1"
+    android:layout_height="wrap_content"
+    android:hint="@string/txtPassword"
+    android:inputType="textPassword"
+    android:layout_below="@+id/UserName"
+    android:layout_centerHorizontal="true"
+    />
+
+<Button
+    android:id="@+id/Login"
+    android:layout_width="@dimen/width1"
+    android:layout_height="wrap_content"
+    android:text="@string/txtLogin"
+    android:layout_below="@+id/password"
+
+    android:background="@color/Button"
+    android:layout_centerInParent="true"
+
+    />
+
+<android.support.v7.widget.AppCompatTextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/txtSign"
+    android:layout_below="@+id/Login"
+    />
+
+<Button
+    android:id="@+id/CreateAcc"
+    android:layout_width="@dimen/width1"
+    android:layout_height="wrap_content"
+    android:text="@string/txtCreateAcc"
+    android:layout_below="@+id/text"
+    android:background="@color/SignUp"
+    android:layout_centerInParent="true"
+    />
+
+</RelativeLayout>
+
